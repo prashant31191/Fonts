@@ -77,4 +77,16 @@
     app:layout_constraintRight_toRightOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/nunito_bold_italic" />
 
+  <TextView
+      android:id="@+id/pacifico_regular"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:text="@string/pangram"
+      android:fontFamily="@font/pacifico"
+      android:textSize="20sp"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/nunito_programmatic" />
+
 </android.support.constraint.ConstraintLayout>
